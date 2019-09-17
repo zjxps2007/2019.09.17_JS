@@ -2,6 +2,8 @@
 
 JavaScriot switch문
 
-깃처음으로 입문
+깃허브 입문
 
-계정2개를 돌렸더니 커밋이 이전계정으로...
+비주얼 스튜디오 코드 연동
+git remote rm origin "깃허브 주소"
+git remote rm origin
