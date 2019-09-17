@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            switch문
+        </title>
+    </head>
+    <body>
+        <script>
+            var x;
+            var mes;
+
+            x = prompt("예약하실 요일을 입력하세요:","금요일");
+
+            switch(x) {
+               case '월요일':
+               case '화요일':
+               case '수요일':
+               case '목요일':
+               case '금요일':mes="정상영업으로 예약되었습니다."
+               break;
+               case '토요일':
+               case '일요일':mes="휴일로 예약이 불가능합니다."
+               break;
+            }
+
+            document.write(x+"은(는)"+mes);
+        
+        </script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            switch문
+        </title>
+    </head>
+    <body>
+        <script>
+            var x,m;
+            var mes;
+
+            x = prompt("점수를 입력하세요:","000");
+            x = parseInt(x);
+
+            document.write("점수는" +x+"이고, 나눈값은:"+(x/10)+"<br>");
+
+            m = parseInt(x/10);
+            switch(m) {
+                case 10:
+                case 9:mes='A';
+                break;
+                case 8:mes='B';
+                break;
+                case 7:mes='C';
+                break;
+                case 6:mes='D';
+                break;
+                case 5:mes='E';
+                break;
+                default:mes='F';
+            }
+
+            document.write("당신의 학점은 ["+mes+"]입니다.");
+        
+        </script>
+    </body>
+</html>
